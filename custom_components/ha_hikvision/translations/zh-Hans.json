@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "海康威视",
+        "description": "海康威视NVR&摄像头",
+        "data": {
+          "host": "URL",
+          "username": "账号",
+          "password": "密码"
+        }
+      }
+    },
+    "error": {
+      "invalid_login": "账号密码错误"
+    },
+    "abort": {
+    },
+    "flow_title": "海康威视"
+  }
+}
