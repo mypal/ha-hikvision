@@ -84,7 +84,7 @@ class SupplementLight(CoordinatorEntity[Coordinator], LightEntity):
 
     self.async_write_ha_state()
 
-  async def async_turn_off() -> None:
+  async def async_turn_off(self) -> None:
     self._attr_is_off = False
     payload = {
       PARAM_ROOT: {
